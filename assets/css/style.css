@@ -1,0 +1,69 @@
+/* Navbar */
+
+.navbar-toggler {
+    margin-right: 50px;
+}
+
+#menu {
+    display: inline;
+    margin-left: 5px;
+}
+
+
+
+/* Main Content */
+
+.container {
+   
+}
+
+#name-intro, #about, #projects, #contact {
+    text-align: center;
+
+}
+
+#name-intro {
+    background-color: crimson;
+    height: 400px;
+}
+
+#about {
+    background-color: khaki;
+    height: 400px;
+}
+
+#projects {
+    background-color: khaki;
+    height: 225px;
+}
+
+#contact {
+    background-color: cornflowerblue;
+    height: 225px;
+}
+
+/* Footer */
+
+#footer {
+    background-color: rgb(39, 36, 36);
+    padding: 8px;
+    color: cornsilk;
+}
+
+@media  (min-width: 900px) {
+    #name-intro {
+        height: 450px;
+    }
+    
+    #about {
+        height: 450px;
+    }
+    
+    #projects {
+        height: 350px;
+    }
+    
+    #contact {
+        height: 350px;
+    }
+}
