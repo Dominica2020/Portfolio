@@ -1,69 +1,67 @@
+body {
+    background-color:  #262526;
+}
+
 /* Navbar */
+
+.navbar {
+    height: 8vh;
+    width: 100vw;
+}
 
 .navbar-toggler {
     margin-right: 50px;
 }
 
+.navbar-toggler-icon {
+    color: #F2F2F2;
+}
+
 #menu {
     display: inline;
     margin-left: 5px;
+    font-size: 16px;
+    color: #8C8979;
 }
-
 
 
 /* Main Content */
 
-.container {
-   
-}
-
 #name-intro, #about, #projects, #contact {
     text-align: center;
+    color: #F2F2F2;
 
 }
 
 #name-intro {
-    background-color: crimson;
-    height: 400px;
+    background-color: #E93F33;
+    height: 55vh;
 }
 
 #about {
-    background-color: khaki;
-    height: 400px;
+    background-color: #8C8979;
 }
 
 #projects {
-    background-color: khaki;
-    height: 225px;
+    background-color: #8C8979;
+    height: 31vh;
 }
 
 #contact {
-    background-color: cornflowerblue;
-    height: 225px;
+    background-color: #404040;  
 }
 
 /* Footer */
 
 #footer {
-    background-color: rgb(39, 36, 36);
+    background-color: #262526;
     padding: 8px;
-    color: cornsilk;
+    color: #F2F2F2;
+    height: 7vh;
 }
 
+/* Media Queries */
+
 @media  (min-width: 900px) {
-    #name-intro {
-        height: 450px;
-    }
     
-    #about {
-        height: 450px;
-    }
-    
-    #projects {
-        height: 350px;
-    }
-    
-    #contact {
-        height: 350px;
-    }
 }
