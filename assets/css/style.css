@@ -14,9 +14,10 @@ body {
     border-bottom: 1px solid black;
   }
   
-  h1 {
+  #logo {
     color: #F2F2F2;
-    letter-spacing: 1.5px;
+    font-family: 'Shadows Into Light', cursive;
+    letter-spacing: 2px;
   }
   
   img {
@@ -26,9 +27,10 @@ body {
   .menu-word {
       display: inline;
       color: #8C8979;
-      letter-spacing: 1px;
       font-size: 20px;
       cursor: pointer;
+      font-family: 'Montserrat', sans-serif;
+      letter-spacing: 5px;
   }
   
   #close {
@@ -62,7 +64,9 @@ body {
     position: absolute;
     right: 0px;
     width: 100vw;
-    letter-spacing: 1.5px;
+    letter-spacing: 2px;
+    font-family: "Roboto", sans-serif;
+    font-size: 18px;
   }
   
   ul {
@@ -86,7 +90,23 @@ body {
 #name-intro, #about, #projects, #contact {
     text-align: center;
     color: #F2F2F2;
-    margin: 0 auto;
+    margin: 0 auto;  
+}
+
+#hidden-intro {
+    font-family: 'Montserrat', sans-serif;
+    letter-spacing: 5px;
+    font-size: 50px;
+    font-weight: 600; 
+    display: none;
+}
+
+
+#about, #projects, #contact {
+    font-family: 'Montserrat', sans-serif;
+    letter-spacing: 5px;
+    font-size: 37px;
+    font-weight: 200;
 }
 
 #name-intro {
@@ -96,15 +116,18 @@ body {
 
 #about {
     background-color: #8C8979;
+    
 }
 
 #projects {
     background-color: #8C8979;
     height: 31vh;
+    
 }
 
 #contact {
-    background-color: #404040;  
+    background-color: #404040; 
+    
 }
 
 /* Footer */
@@ -116,6 +139,9 @@ footer {
     height: 7vh;
     text-align: center;
     width: 100vw;
+    font-family: 'Montserrat', sans-serif;
+    letter-spacing: 2px;
+    font-weight: 100;
 }
 
 #copyright {
@@ -136,3 +162,32 @@ footer {
 @media  (min-width: 900px) {
    
 }
+
+
+/* 
+
+footer {
+    background-color: #262526;
+    padding: 8px;
+    color: #F2F2F2;
+    height: 7vh;
+    text-align: center;
+    width: 100vw;
+    font-family: 'Montserrat', sans-serif;
+    letter-spacing: 2px;
+    font-weight: 100;
+}
+
+#copyright {
+    font-size: 14px;
+    margin: 0;
+}
+
+.social-icon:hover {
+  opacity: 0.7;
+  background-color: #f2f2f2;
+  padding: 1px;
+  
+}
+
+*/

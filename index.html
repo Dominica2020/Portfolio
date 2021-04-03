@@ -12,11 +12,14 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
     <!--Custom CSS-->
     <link rel="stylesheet" href="assets/css/style.css">
+    <!--Google Fonts-->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&family=Shadows+Into+Light&display=swap" rel="stylesheet">
 </head>
 <body>
 
   <div id="navbar">
-    <h1>Come to Life Apps</h1>
+    <h1 id="logo">Come to Life Apps</h1>
     <div id="hamburger">
       <img class="toggle" src="assets/images/SVG/Asset 1.svg" alt="hamburger-menu" width="40px" onclick="myFunction()">
       <p class="menu-word" onclick="myFunction()">Menu</p>
@@ -26,28 +29,31 @@
   <div id="hidden-menu">
     <ul>
       <li>About</li>
+      <hr>
       <li>Projects</li>
+      <hr>
       <li>Contact</li>
+      <hr>
     </ul>
   </div>
 
     <div class="container" id="main-content"></div>
         <div class="row">
             <div class="col-9" id="name-intro">
-                <h1>Welcome to My Portfolio Site</h1>
+                <p id="hidden-intro">Welcome to My Portfolio Site</p>
             </div>
 
             <div class="col-3" id="about">
-                <h1>About</h1>
+                <p>About</p>
             </div>
         </div>
         <div class="row">
             <div class="col-6" id="projects">
-                <h1>Projects</h1>
+                <p>Projects</p>
             </div>
 
             <div class="col-6" id="contact">
-                <h1>Contact</h1>
+                <p>Contact</p>
             </div>
         </div>
     </div>
