@@ -18,6 +18,7 @@ body {
     color: #F2F2F2;
     font-family: 'Shadows Into Light', cursive;
     letter-spacing: 2px;
+    margin-bottom: 10%;
   }
   
   img {
@@ -88,9 +89,10 @@ body {
 /* Main Content */
 
 #name-intro, #about, #projects, #contact {
-    text-align: center;
     color: #F2F2F2;
-    margin: 0 auto;  
+    display: flex;
+    align-items: center; 
+    justify-content: center;
 }
 
 #hidden-intro {
@@ -116,7 +118,7 @@ body {
 
 #about {
     background-color: #8C8979;
-    
+    height: 54vh;
 }
 
 #projects {
@@ -127,7 +129,7 @@ body {
 
 #contact {
     background-color: #404040; 
-    
+    height: 31vh;
 }
 
 /* Footer */
@@ -137,7 +139,9 @@ footer {
     padding: 8px;
     color: #F2F2F2;
     height: 7vh;
-    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
     width: 100vw;
     font-family: 'Montserrat', sans-serif;
     letter-spacing: 2px;
@@ -149,18 +153,27 @@ footer {
     margin: 0;
 }
 
+.social-icon {
+  
+}
+
 .social-icon:hover {
   opacity: 0.7;
-  background-color: #f2f2f2;
   padding: 1px;
-  
+
 }
 
 
 /* Media Queries */
 
-@media  (min-width: 900px) {
-   
+@media  (max-width: 600px) {
+  #name-intro {
+    
+  }
+
+  #about {
+    
+  }
 }
 
 
