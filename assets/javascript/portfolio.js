@@ -26,6 +26,28 @@ function myFunction() {
      translateZ: 0,
      opacity: [0,1],
      easing: "easeOutExpo",
+     duration: 8000,
+     delay: (el, i) => 500 + 30 * i
+   }).add({
+     targets: '.ml12 .letter',
+     translateX: [0,-30],
+     opacity: [1,0],
+     easing: "easeInExpo",
+     duration: 4000,
+     delay: (el, i) => 100 + 30 * i
+   });
+
+
+  
+   /*
+
+   anime.timeline({loop: true})
+   .add({
+     targets: '.ml12 .letter',
+     translateX: [40,0],
+     translateZ: 0,
+     opacity: [0,1],
+     easing: "easeOutExpo",
      duration: 1500,
      delay: (el, i) => 500 + 30 * i
    }).add({
@@ -37,5 +59,4 @@ function myFunction() {
      delay: (el, i) => 100 + 30 * i
    });
 
-
-   //document.getElementById("close").style.display = "none";
+   */

@@ -191,10 +191,21 @@ footer {
 
 /* Media Queries */
 
-@media (min-width: 760px) {
-  #name-intro {
-    background-size:;
+@media (max-width: 400px) {
+  
+  .menu-word {
+    display: none;
   }
+  
+  #about, #projects, #contact {
+    font-size: 20px;
+  }
+
+  #hidden-intro {
+    writing-mode: vertical-lr;
+    
+  }
+
 }
 
 
