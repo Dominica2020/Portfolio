@@ -4,7 +4,6 @@ body {
 }
 
 /* Navbar */
-
 #navbar {
     background-color: #262526;
     width: 100vw;
@@ -14,6 +13,7 @@ body {
     padding: 10px;
     height: 8vh;
     border-bottom: 1px solid black;
+    margin: 0px;
   }
   
   #logo {
@@ -63,8 +63,7 @@ body {
   }
   
 
-  /* Hidden Menu */
-  
+  /* Hidden Nav Menu */
   #hidden-menu {
     display: none;
     color: white;
@@ -79,6 +78,8 @@ body {
     font-size: 18px;
     z-index: 5;
   }
+
+  
   
   ul {
     list-style-type: none;
@@ -91,13 +92,12 @@ body {
     cursor: pointer;
   }
   
-  li:hover {
+  a:hover {
     color: red;
   }
 
 
 /* Main Content */
-
 #name-intro, #about, #projects, #contact {
     color: #F2F2F2;
     display: flex;
@@ -163,7 +163,6 @@ body {
 
 
 /* Footer */
-
 footer {
     background-color: #262526;
     padding: 8px;
@@ -190,10 +189,8 @@ footer {
 }
 
 
-/* Media Queries */
-
+/* Home Page Media Queries */
 @media (max-width: 400px) {
-  
   .menu-word {
     display: none;
   }
@@ -201,7 +198,6 @@ footer {
   #about, #projects, #contact {
     font-size: 20px;
   }
-
 }
 
 @media (max-width: 670px) {
@@ -210,6 +206,12 @@ footer {
     writing-mode: vertical-lr;
     font-size: 28px;
     font-weight: 700;
+  }
+}
+
+@media (min-width: 900px) {
+  #hidden-intro {
+    font-size: 60px;
   }
 }
 
@@ -223,11 +225,6 @@ footer {
   }
 }
 
-@media (min-width: 900px) {
-  #hidden-intro {
-    font-size: 60px;
-  }
-}
 
 
 /* 

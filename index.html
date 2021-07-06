@@ -5,9 +5,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Come to Life Apps</title>
-    <!--Complete meta tags-->
-    <meta name="description" content="">
-    <meta name="keywords" content="">
+    <!--Meta Description & Keywords-->
+    <meta name="description" content="Dominica Patterson Full-Stack Developer Portfolio">
+    <meta name="keywords" content="Dominica Patterson, Software Developer, Software Engineer, Full-Stack Developer">
     <!--Bootstrap CSS-->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
     <!--Custom CSS-->
@@ -15,12 +15,12 @@
     <!--Google Fonts-->
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&family=Shadows+Into+Light&display=swap" rel="stylesheet">
-
-    <!--Anime.js library link-->
+    <!--Anime.js Link-->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
 </head>
-<body>
 
+<body>
+  <!--Navbar Section-->
   <div id="navbar">
     <h1 id="logo">Come to Life Apps</h1>
     <div id="hamburger">
@@ -29,18 +29,19 @@
     </div>
     <p id="close" onclick="closeMenu()">X</p>
   </div>
+
   <div id="hidden-menu">
     <ul>
       <li><a href="about.html">About</a></li>
-      <hr>
-      <li>Projects</li>
-      <hr>
-      <li>Contact</li>
-      <hr>
+      <hr class="menu-hr">
+      <li><a href="projects.html">Projects</a></li>
+      <hr class="menu-hr">
+      <li><a href="contact.html">Contact</a></li>
     </ul>
   </div>
 
-    <div class="container" id="main-content"></div>
+    <!--Main Content Section-->
+    <div class="container-fluid" id="main-content">
         <div class="row">
             <div class="col-6 col-md-9" id="name-intro">
                 <p id="hidden-intro" class="ml12">Welcome</p>
@@ -50,6 +51,7 @@
                 <p>About</p>
             </div>
         </div>
+
         <div class="row">
             <div class="col-6" id="projects">
                 <p>Projects</p>
@@ -61,6 +63,7 @@
         </div>
     </div>
 
+    <!--Footer Section-->
     <footer id="footer">
         <p id="copyright">© Come to Life Apps 2021</p>
         
@@ -68,13 +71,23 @@
         <a href="https://github.com/Dominica2020"><img class="social-icon" src="assets/images/SVG/SVG/GH-icon.svg" alt="github" width="22px"></a>
         <a href="https://www.linkedin.com/in/dominicap/"><img class="social-icon" src="assets/images/SVG/SVG/Li-icon.svg" alt="linkedin" width="22px"></a>
       </div>
-    </footer>  
+    </footer>
 
+    <!--Bootstrap JS Tags-->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
     <script src="assets/javascript/portfolio.js"></script>
 </body>
 </html>
 
 <!--
-  
+  <div id="hidden-menu">
+    <ul>
+      <li><a href="about.html">About</a></li>
+      <hr class="menu-hr">
+      <li><a href="projects.html">Projects</a></li>
+      <hr class="menu-hr">
+      <li><a href="contact.html">Contact</a></li>
+      <hr class="menu-hr">
+    </ul>
+  </div>
 -->
