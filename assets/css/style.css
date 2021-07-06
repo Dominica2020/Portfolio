@@ -22,6 +22,11 @@ body {
     letter-spacing: 2px; 
   }
   
+  a {
+    text-decoration: none;
+    color: #F2F2F2;
+  }
+
   img {
     margin-right: 10px;
   }
