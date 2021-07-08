@@ -81,8 +81,17 @@ body {
   
 .menu-li {
   margin: 0px;
-  padding: 10px 0;
+  padding: 15px 0;
   cursor: pointer;
+  letter-spacing: 5px;
+}
+
+.about {
+  margin-top: 10px;
+}
+
+.contact {
+  margin-bottom: 10px;
 }
 
 .menu-link {
@@ -176,8 +185,8 @@ footer {
 }
 
 #copyright {
-  font-size: 14px;
-  margin: 0;
+  font-size: 12px;
+  margin: 0 10px;
 }
 
 .social-icon:hover {
@@ -185,8 +194,46 @@ footer {
   padding: 1px;
 }
 
+.github {
+  margin-right: 15px;
+}
+
+.linked {
+  margin-right: 10px;
+}
+
 
 /* Home Page Media Queries */
+@media (max-width: 280px) {
+  #logo {
+    font-size: 18px;
+  }
+
+  .menu-li {
+    padding: 10px 0;
+  }
+
+  #copyright {
+    font-size: 8px;
+  }
+
+  .social-icon {
+    width: 16px;
+  }
+}
+
+@media (max-width: 320px) {
+  .hamburger-img {
+    width: 30px;
+  }
+
+  #close {
+    margin: -5px 10px;
+  }
+
+
+}
+
 @media (max-width: 400px) {
   .menu-word {
     display: none;
