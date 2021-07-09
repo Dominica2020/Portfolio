@@ -290,6 +290,10 @@ footer {
 
 /* ---------------- About Page ---------------- */
 
+.home {
+  margin-top: 10px;
+}
+
 #about-content {
   height: 85vh;
   display: flex;

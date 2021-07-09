@@ -1,9 +1,15 @@
 function myFunction() {
-    document.getElementById("hidden-menu").style.display = "unset";
+   document.getElementById("hidden-menu").style.display = "unset";
    
    document.getElementById("hamburger").style.display = "none";
    
    document.getElementById("close").style.display = "unset";
+
+   document.getElementById("hidden-intro").style.display = "none";
+
+   document.getElementById("about-word").style.display = "none";
+
+   document.querySelector(".check-back").style.display = "none";
    
  }
  
@@ -13,6 +19,12 @@ function myFunction() {
    document.getElementById("hidden-menu").style.display = "none";
    
    document.getElementById("hamburger").style.display = "unset";
+
+   document.getElementById("hidden-intro").style.display = "unset";
+
+   document.getElementById("about-word").style.display = "unset";
+
+   document.querySelector(".check-back").style.display = "unset";
    
  }
 
