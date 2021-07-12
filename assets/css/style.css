@@ -348,27 +348,27 @@ footer {
 }
 
 form {
-  font-family: 'Montserrat', sans-serif;
-  letter-spacing: 2px;
-  color: #F2F2F2;
-  margin-top: 30px;
+  font-family: 'Montserrat', sans-serif !important;
+  letter-spacing: 2px !important;
+  color: #F2F2F2 !important;
+  margin-top: 30px !important;
 }
 
 label {
-  margin: 10px 0px;
-  font-size: 20px;
+  margin: 10px 0px !important;
+  font-size: 20px !important;
 }
 
 .select-interest {
-  margin-top: 20px;
+  margin-top: 20px !important;
 }
 
 button {
-  font-family: 'Montserrat', sans-serif;
-  letter-spacing: 2px;
-  color: #F2F2F2;
-  font-weight: 200;
-  margin-top: 20px;
+  font-family: 'Montserrat', sans-serif !important;
+  letter-spacing: 2px !important;
+  color: #F2F2F2 !important;
+  font-weight: 200 !important;
+  margin-top: 20px !important;
 }
 
 
