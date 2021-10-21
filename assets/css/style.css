@@ -295,22 +295,27 @@ footer {
 }
 
 #about-content {
-  height: 85vh;
+  /*height: 85vh;
   display: flex;
   align-items: center;
   justify-content: center;
-  background-image: url(../images/basillica.JPG);
+  background-image: url(../images/Germany.jpg);
   background-repeat: no-repeat;
   background-size: cover;
-  box-shadow: inset 0 0 0 1000px rgba(233,63,51,0.6);
+  box-shadow: inset 0 0 0 1000px rgba(233, 63, 51, 0.6);
+  box-shadow: inset 0 0 0 1000px rgba(140, 137, 121, 0.2);*/
+  padding: 30px 100px;
+  font-family: "Montserrat", sans-serif;
 }
 
-.check-back {
-  font-family: 'Montserrat', sans-serif;
+h1 {
   letter-spacing: 5px;
   font-size: 37px;
-  font-weight: 200;
-  color: #F2F2F2;
+  text-align: center;
+}
+
+h3 {
+  letter-spacing: 2px;
 }
 
 @media (max-width: 450px) {
