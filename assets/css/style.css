@@ -16,20 +16,20 @@ body {
   border-bottom: 1px solid black;
   margin: 0px;
 }
-  
+
 #logo {
-  color: #F2F2F2;
-  font-family: 'Shadows Into Light', cursive;
-  letter-spacing: 2px; 
+  color: #f2f2f2;
+  font-family: "Shadows Into Light", cursive;
+  letter-spacing: 2px;
 }
 
 .home-link {
   text-decoration: none;
-  color: #F2F2F2;
+  color: #f2f2f2;
 }
 
 .home-link:hover {
-  color: #F2F2F2;
+  color: #f2f2f2;
 }
 
 .hamburger-img {
@@ -42,19 +42,19 @@ body {
 
 .menu-word {
   display: inline;
-  color: #8C8979;
+  color: #8c8979;
   font-size: 20px;
   cursor: pointer;
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   letter-spacing: 5px;
 }
 
 .menu-word:hover {
-  color: #F2F2F2;
-} 
-  
+  color: #f2f2f2;
+}
+
 #close {
-  color: #8C8979;
+  color: #8c8979;
   margin: -5px 30px;
   font-size: 30px;
   display: none;
@@ -66,13 +66,12 @@ body {
   transform: scale(1.5);
   transform: rotate(90deg);
 }
-  
 
 /* Hidden Nav Menu */
 #hidden-menu {
   display: none;
   color: white;
-  background-color: rgba(140,137,121,0.95);
+  background-color: rgba(140, 137, 121, 0.95);
   margin: 0;
   text-align: right;
   position: absolute;
@@ -82,14 +81,14 @@ body {
   font-family: "Roboto", sans-serif;
   font-size: 18px;
   z-index: 5;
-  border-bottom: 1px solid #F2F2F2;
+  border-bottom: 1px solid #f2f2f2;
 }
-  
+
 .menu-ul {
   list-style-type: none;
   margin: 0 20px;
 }
-  
+
 .menu-li {
   margin: 0px;
   padding: 15px 0;
@@ -107,24 +106,26 @@ body {
 
 .menu-link {
   text-decoration: none;
-  color: #F2F2F2;
+  color: #f2f2f2;
 }
-  
+
 .menu-link:hover {
   color: red;
 }
 
-
 /* Main Content */
-#name-intro, #about, #projects, #contact {
-  color: #F2F2F2;
+#name-intro,
+#about,
+#projects,
+#contact {
+  color: #f2f2f2;
   display: flex;
-  align-items: center; 
+  align-items: center;
   justify-content: center;
 }
 
 #hidden-intro {
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   letter-spacing: 5px;
   font-size: 50px;
   font-weight: 600;
@@ -142,8 +143,10 @@ body {
   line-height: 1em;
 }
 
-#about, #projects, #contact {
-  font-family: 'Montserrat', sans-serif;
+#about,
+#projects,
+#contact {
+  font-family: "Montserrat", sans-serif;
   letter-spacing: 5px;
   font-size: 37px;
   font-weight: 200;
@@ -154,20 +157,24 @@ body {
   background-image: url(../images/basillica.JPG);
   background-repeat: no-repeat;
   background-size: cover;
-  box-shadow: inset 0 0 0 1000px rgba(233,63,51,0.6);
+  box-shadow: inset 0 0 0 1000px rgba(233, 63, 51, 0.6);
 }
 
 #about {
-  background-color: #8C8979;
+  background-color: #8c8979;
   height: 54vh;
 }
 
-.about-link, .projects-link, .contact-link {
+.about-link,
+.projects-link,
+.contact-link {
   text-decoration: none;
-  color: #F2F2F2;
+  color: #f2f2f2;
 }
 
-.about-link:hover, .projects-link:hover, .contact-link:hover {
+.about-link:hover,
+.projects-link:hover,
+.contact-link:hover {
   color: rgba(242, 242, 242, 0.7);
 }
 
@@ -176,7 +183,7 @@ body {
   background-image: url(../images/proj-img.jpg);
   background-repeat: no-repeat;
   background-size: cover;
-  box-shadow: inset 0 0 0 1000px rgba(140,137,121,0.6);
+  box-shadow: inset 0 0 0 1000px rgba(140, 137, 121, 0.6);
 }
 
 #contact {
@@ -184,21 +191,20 @@ body {
   background-image: url(../images/London-contact.jpg);
   background-repeat: no-repeat;
   background-size: cover;
-  box-shadow: inset 0 0 0 1000px rgba(64,64,64,0.6);
+  box-shadow: inset 0 0 0 1000px rgba(64, 64, 64, 0.6);
 }
-
 
 /* Footer */
 footer {
   background-color: #262526;
   padding: 8px;
-  color: #F2F2F2;
+  color: #f2f2f2;
   height: 7vh;
   display: flex;
   justify-content: space-between;
   align-items: center;
   width: 100vw;
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   letter-spacing: 2px;
   font-weight: 100;
 }
@@ -220,7 +226,6 @@ footer {
 .linked {
   margin-right: 10px;
 }
-
 
 /* Home Page Media Queries */
 @media (max-width: 280px) {
@@ -249,16 +254,16 @@ footer {
   #close {
     margin: -5px 10px;
   }
-
-
 }
 
 @media (max-width: 400px) {
   .menu-word {
     display: none;
   }
-  
-  #about, #projects, #contact {
+
+  #about,
+  #projects,
+  #contact {
     font-size: 20px;
   }
 }
@@ -279,11 +284,13 @@ footer {
 }
 
 @media (min-width: 1050px) {
-  #name-intro, #about {
+  #name-intro,
+  #about {
     height: 45vh;
   }
 
-  #projects, #contact {
+  #projects,
+  #contact {
     height: 40vh;
   }
 }
@@ -295,22 +302,27 @@ footer {
 }
 
 #about-content {
-  height: 85vh;
+  /*height: 85vh;
   display: flex;
   align-items: center;
   justify-content: center;
-  background-image: url(../images/basillica.JPG);
+  background-image: url(../images/Germany.jpg);
   background-repeat: no-repeat;
   background-size: cover;
-  box-shadow: inset 0 0 0 1000px rgba(233,63,51,0.6);
+  box-shadow: inset 0 0 0 1000px rgba(233, 63, 51, 0.6);
+  box-shadow: inset 0 0 0 1000px rgba(140, 137, 121, 0.2);*/
+  padding: 30px 100px;
+  font-family: "Montserrat", sans-serif;
 }
 
-.check-back {
-  font-family: 'Montserrat', sans-serif;
+h1 {
   letter-spacing: 5px;
   font-size: 37px;
-  font-weight: 200;
-  color: #F2F2F2;
+  text-align: center;
+}
+
+h3 {
+  letter-spacing: 2px;
 }
 
 @media (max-width: 450px) {
@@ -318,7 +330,6 @@ footer {
     font-size: 20px;
   }
 }
-
 
 /* ---------------- Projects Page ---------------- */
 
@@ -330,9 +341,8 @@ footer {
   background-image: url(../images/proj-img.jpg);
   background-repeat: no-repeat;
   background-size: cover;
-  box-shadow: inset 0 0 0 1000px rgba(140,137,121,0.6);
+  box-shadow: inset 0 0 0 1000px rgba(140, 137, 121, 0.6);
 }
-
 
 /* ---------------- Contact Page ---------------- */
 
@@ -344,13 +354,13 @@ footer {
   background-image: url(../images/London-contact.jpg);
   background-repeat: no-repeat;
   background-size: cover;
-  box-shadow: inset 0 0 0 1000px rgba(64,64,64,0.6);
+  box-shadow: inset 0 0 0 1000px rgba(64, 64, 64, 0.6);
 }
 
 form {
-  font-family: 'Montserrat', sans-serif !important;
+  font-family: "Montserrat", sans-serif !important;
   letter-spacing: 2px !important;
-  color: #F2F2F2 !important;
+  color: #f2f2f2 !important;
   margin-top: 30px !important;
 }
 
@@ -364,16 +374,12 @@ label {
 }
 
 button {
-  font-family: 'Montserrat', sans-serif !important;
+  font-family: "Montserrat", sans-serif !important;
   letter-spacing: 2px !important;
-  color: #F2F2F2 !important;
+  color: #f2f2f2 !important;
   font-weight: 200 !important;
   margin-top: 20px !important;
 }
-
-
-
-
 
 /* 
 

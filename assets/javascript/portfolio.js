@@ -8,8 +8,9 @@ function myFunction() {
    document.getElementById("hidden-intro").style.display = "none";
 
    document.getElementById("about-word").style.display = "none";
+   
+   document.getElementById("form-details").style.display = "none";
 
-   document.querySelector(".check-back").style.display = "none";
    
  }
  
@@ -24,8 +25,9 @@ function myFunction() {
 
    document.getElementById("about-word").style.display = "unset";
 
-   document.querySelector(".check-back").style.display = "unset";
-   
+   document.getElementById("form-details").style.display = "unset";
+
+
  }
 
  var textWrapper = document.querySelector('.ml12');

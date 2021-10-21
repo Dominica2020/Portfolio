@@ -1,65 +1,138 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>About</title>
     <!--Meta Description & Keywords-->
-    <meta name="description" content="About Dominica Patterson">
-    <meta name="keywords" content="About, Dominica Patterson">
+    <meta name="description" content="About Dominica Patterson" />
+    <meta name="keywords" content="About, Dominica Patterson" />
     <!--Bootstrap CSS-->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl"
+      crossorigin="anonymous"
+    />
     <!--Custom CSS-->
-    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/style.css" />
     <!--Google Fonts-->
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&family=Shadows+Into+Light&display=swap" rel="stylesheet">
-</head>
-<body>
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&family=Shadows+Into+Light&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
     <!--Navbar Section-->
-  <div id="navbar">
-    <h1 id="logo"><a class="home-link" href="index.html">Come to Life Apps</a></h1>
-    <div id="hamburger">
-      <img class="hamburger-img" src="assets/images/SVG/hambuger-menu.svg" alt="hamburger-menu" width="40px" onclick="myFunction()">
-      <p class="menu-word" onclick="myFunction()">Menu</p>
+    <div id="navbar">
+      <h1 id="logo">
+        <a class="home-link" href="index.html">Come to Life Apps</a>
+      </h1>
+      <div id="hamburger">
+        <img
+          class="hamburger-img"
+          src="assets/images/SVG/hambuger-menu.svg"
+          alt="hamburger-menu"
+          width="40px"
+          onclick="myFunction()"
+        />
+        <p class="menu-word" onclick="myFunction()">Menu</p>
+      </div>
+      <p id="close" onclick="closeMenu()">X</p>
     </div>
-    <p id="close" onclick="closeMenu()">X</p>
-  </div>
 
-  <div id="hidden-menu">
-    <ul class="menu-ul">
-      <li class="menu-li home"><a class="menu-link" href="index.html">Home</a></li>
-      <hr class="menu-hr">
-      <li class="menu-li about"><a class="menu-link" href="about.html">About</a></li>
-      <hr class="menu-hr">
-      <li class="menu-li projects"><a class="menu-link" href="projects.html">Projects</a></li>
-      <hr class="menu-hr">
-      <li class="menu-li contact"><a class="menu-link" href="contact.html">Contact</a></li>
-    </ul>
-  </div>
+    <div id="hidden-menu">
+      <ul class="menu-ul">
+        <li class="menu-li home">
+          <a class="menu-link" href="index.html">Home</a>
+        </li>
+        <hr class="menu-hr" />
+        <li class="menu-li about">
+          <a class="menu-link" href="about.html">About</a>
+        </li>
+        <hr class="menu-hr" />
+        <li class="menu-li projects">
+          <a class="menu-link" href="projects.html">Projects</a>
+        </li>
+        <hr class="menu-hr" />
+        <li class="menu-li contact">
+          <a class="menu-link" href="contact.html">Contact</a>
+        </li>
+      </ul>
+    </div>
 
     <!--Main Content Section-->
-    <div class="container-fluid" id="about-content">
-        <div class="row" id="">
-            <div class="col">
-                <h1 class="check-back">Check Back Soon!</h1>
-            </div>
+    <div class="container" id="about-content">
+      <div class="row" id="about-strip">
+        <div class="col">
+          <h1>Welcome to My Portfolio Site!</h1>
+          <p>
+            My name is Dominica, & I'm a self-taught software engineer. After
+            exploring fossils, living in the UK & working at university, I was
+            bitten by the Software & Entrepreneurship Bug. 
+          </p>
+
+          <h3>🎯 Main Tech Focus</h3>
+          <p>
+            <ul>
+              <li>Full-Stack Web Development</li>
+              <li>Responsive Web Design</li>
+              <li>Python Software Development</li>
+              <li>Scripting & Automation</li>
+              <li>Web Scraping</li>
+              <li>Data Science</li>
+              <li>Machine Learning</li>
+              <li>Big Data Analytics</li> 
+            </ul>
+          </p>
+
+          <h3>Additional Skills</h3>
+          <ul>
+            <li>Spanish</li>
+            <li>Business Strategy</li>
+            <li>Research</li>
+            <li>Collaboration</li>
+            <li>Lifelong Learning</li>
+          </ul>
+
+          <h3>International Experience 🌎</h3>
+          <p>England ⎮ Wales ⎮ Germany ⎮ France ⎮ Italy ⎮ 
+            Spain ⎮ Peru ⎮ Chile ⎮ Costa Rica ⎮ Monaco ⎮ Vatican City State
+          </p>
         </div>
+      </div>
     </div>
 
     <!--Footer Section-->
     <footer id="footer">
-        <p id="copyright">© Come to Life Apps 2021</p>
-          
-        <div id="icon-div">
-          <a href="https://github.com/Dominica2020"><img class="social-icon github" src="assets/images/SVG/SVG/GH-icon.svg" alt="github" width="22px"></a>
-          <a href="https://www.linkedin.com/in/dominicap/"><img class="social-icon linked" src="assets/images/SVG/SVG/Li-icon.svg" alt="linkedin" width="22px"></a>
-        </div>
+      <p id="copyright">© Come to Life Apps 2021</p>
+
+      <div id="icon-div">
+        <a href="https://github.com/Dominica2020"
+          ><img
+            class="social-icon github"
+            src="assets/images/SVG/SVG/GH-icon.svg"
+            alt="github"
+            width="22px"
+        /></a>
+        <a href="https://www.linkedin.com/in/dominicap/"
+          ><img
+            class="social-icon linked"
+            src="assets/images/SVG/SVG/Li-icon.svg"
+            alt="linkedin"
+            width="22px"
+        /></a>
+      </div>
     </footer>
-  
+
     <!--Bootstrap JS Tags-->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
-    <script src="assets/javascript/portfolio.js"></script>   
-</body>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0"
+      crossorigin="anonymous"
+    ></script>
+    <script src="assets/javascript/portfolio.js"></script>
+  </body>
 </html>
