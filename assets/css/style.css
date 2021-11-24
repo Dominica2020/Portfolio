@@ -21,7 +21,7 @@ body {
   color: #f2f2f2;
   font-family: "Shadows Into Light", cursive;
   letter-spacing: 2px;
-  margin-top: 12px;
+  margin-top: 20px;
 }
 
 .home-link {
@@ -258,6 +258,12 @@ footer {
 }
 
 @media (max-width: 400px) {
+  #logo {
+    font-size: 30px;
+  }
+}
+
+@media (max-width: 550px) {
   .menu-word {
     display: none;
   }
@@ -351,6 +357,7 @@ h3 {
 .check-back {
   font-family: "Montserrat", sans-serif;
   color: #f2f2f2;
+  font-size: 45px;
 }
 
 /* ---------------- Contact Page ---------------- */
@@ -386,7 +393,7 @@ button {
   font-family: "Montserrat", sans-serif !important;
   letter-spacing: 2px !important;
   color: #f2f2f2 !important;
-  font-weight: 200 !important;
+  font-weight: 550 !important;
   margin-top: 20px !important;
 }
 
