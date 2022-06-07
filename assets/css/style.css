@@ -363,9 +363,9 @@ h3 {
 
 @keyframes example {
   0%   {margin: 0px; top:0px;}
-  25%  {margin: 200px; top:0px;}
-  50%  {margin:200px; top:200px;}
-  75%  {margin:0px; top:200px;}
+  25%  {margin: 100px; top:0px;}
+  50%  {margin: 100px; top:100px;}
+  75%  {margin: 0px; top:100px;}
   100% {margin: 0px; top:0px;}
 }
 
