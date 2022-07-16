@@ -330,6 +330,10 @@ h3 {
   font-size: 20px;
 }
 
+a {
+  text-decoration: none;
+}
+
 @media (max-width: 990px) {
   #about-content {
     padding: 30px 80px;
@@ -363,8 +367,8 @@ h3 {
 
 @keyframes example {
   0%   {margin: 0px; top:0px;}
-  25%  {margin: 80px; top:0px;}
-  50%  {margin: 80px; top:80px;}
+  25%  {margin: 50px; top:0px;}
+  50%  {margin: 50px; top:80px;}
   75%  {margin: 0px; top:80px;}
   100% {margin: 0px; top:0px;}
 }
