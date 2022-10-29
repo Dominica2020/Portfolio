@@ -5,4 +5,5 @@
 - Added CSS Keyframes for simple animation to projects page
 - Wrote vanilla JavaScript to add user interactivity 
 - Implemented the Anime.js animation library to add a motion design feature for the homepage
+- Utlized FormSubmit to capture email/contact data to reduce development time 
 
