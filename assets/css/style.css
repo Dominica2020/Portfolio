@@ -390,22 +390,22 @@ a {
   background-repeat: no-repeat;
   background-size: cover;
   box-shadow: inset 0 0 0 1000px rgba(64, 64, 64, 0.6);
+  color: white;
+}
+
+#in-touch {
+  font-family: "Montserrat", sans-serif !important;
 }
 
 form {
   font-family: "Montserrat", sans-serif !important;
   letter-spacing: 2px !important;
-  color: #f2f2f2 !important;
   margin-top: 30px !important;
 }
 
 label {
   margin: 10px 0px !important;
   font-size: 20px !important;
-}
-
-.select-interest {
-  margin-top: 20px !important;
 }
 
 button {
